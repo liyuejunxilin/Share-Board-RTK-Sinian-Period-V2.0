@@ -1,0 +1,11 @@
+..\obj\lambda.o: lambda.c
+..\obj\lambda.o: rtk.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstring
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstdlib
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\lambda.o: D:\Keil\ARM\ARMCC\Bin\..\include\time.h

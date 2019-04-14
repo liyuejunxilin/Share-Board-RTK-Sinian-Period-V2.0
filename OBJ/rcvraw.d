@@ -1,0 +1,11 @@
+..\obj\rcvraw.o: rcvraw.c
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstdlib
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\rcvraw.o: rtk.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstring
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\rcvraw.o: D:\Keil\ARM\ARMCC\Bin\..\include\time.h

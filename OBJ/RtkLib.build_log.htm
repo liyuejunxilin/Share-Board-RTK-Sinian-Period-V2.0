@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: L HC, WDDZ, LIC=DSNRA-1JYJA-BWF2G-V1PQG-LD2A5-83KTX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Share-Board-RTK-Sinian-Period-V2.0-master\USER\RtkLib.uvprojx
+Project File Date:  12/20/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_stm32f427xx.s...
+compiling ephemeris.c...
+ephemeris.c(114): warning:  #1293-D: assignment in condition
+      if (!(eph=seleph(teph,sat,iode,nav,msg))) return 0;
+ephemeris.c(130): warning:  #1293-D: assignment in condition
+  		if (!(eph=seleph(teph,sat,-1,nav,msg))) return 0;
+ephemeris.c(207): warning:  #1-D: last line of file ends without a newline
+  }			
+ephemeris.c: 3 warnings, 0 errors
+compiling lambda.c...
+lambda.c(172): warning:  #1293-D: assignment in condition
+      if (!(info=LD(n,Q,L,D))) {
+lambda.c(179): warning:  #1293-D: assignment in condition
+          if (!(info=search(n,m,L,D,z,E,s))) {
+lambda.c: 2 warnings, 0 errors
+compiling main.c...
+main.c(181): warning:  #177-D: variable "str" was declared but never referenced
+  	char str[20];
+main.c: 1 warning, 0 errors
+compiling interrupt.c...
+compiling rcvraw.c...
+rcvraw.c(57): warning:  #177-D: variable "week" was declared but never referenced
+  	int week, iodc0, iodc1;
+rcvraw.c(225): warning:  #1-D: last line of file ends without a newline
+  }	
+rcvraw.c: 2 warnings, 0 errors
+compiling rtkcmn.c...
+rtkcmn.c(396): warning:  #1293-D: assignment in condition
+      if (!(info=matinv(B,n))) matmul(tr[0]=='N'?"NN":"TN",n,m,n,1.0,B,Y,0.0,X);
+rtkcmn.c(815): warning:  #1293-D: assignment in condition
+      if ((p=zeros(n,n))) for (i=0;i<n;i++) p[i+i*n]=1.0;
+rtkcmn.c(849): warning:  #1293-D: assignment in condition
+      if (!(info=matinv(Q,m))) {
+rtkcmn.c(953): warning:  #1-D: last line of file ends without a newline
+  }
+rtkcmn.c: 4 warnings, 0 errors
+compiling Myhal_uart.c...
+Myhal_uart.c(188): warning:  #1-D: last line of file ends without a newline
+  }
+Myhal_uart.c: 1 warning, 0 errors
+compiling pntpos.c...
+compiling rtksvr.c...
+rtksvr.c(96): warning:  #1-D: last line of file ends without a newline
+  }
+rtksvr.c: 1 warning, 0 errors
+compiling rtkpos.c...
+rtkpos.c(598): warning:  #1293-D: assignment in condition
+      if (!(info=lambda(nb,2,y+na,Qb,b,s))) {
+rtkpos.c(601): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          if (rtk->sol.ratio>999.9) rtk->sol.ratio=999.9f;
+rtkpos.c(675): warning:  #1293-D: assignment in condition
+          if ((info=filter(rtk->x,rtk->P,H,v,R,rtk->nx,nv))) {
+rtkpos.c(757): warning:  #1293-D: assignment in condition
+  		if ((info=filter(xp,Pp,H,v,R,rtk->nx,nv))) {
+rtkpos.c: 4 warnings, 0 errors
+compiling solution.c...
+solution.c(76): warning:  #1-D: last line of file ends without a newline
+  }
+solution.c: 1 warning, 0 errors
+compiling stm32f4xx_hal_msp.c...
+stm32f4xx_hal_msp.c(166): warning:  #1-D: last line of file ends without a newline
+  }
+stm32f4xx_hal_msp.c: 1 warning, 0 errors
+compiling SuperStarII.c...
+SuperStarII.c(255): warning:  #1-D: last line of file ends without a newline
+  }
+SuperStarII.c: 1 warning, 0 errors
+compiling ublox.c...
+ublox.c(123): warning:  #1293-D: assignment in condition
+          if (!(sys=ubx_sys(
+ublox.c(128): warning:  #1293-D: assignment in condition
+          if (!(sat=satno(sys,prn))) {
+ublox.c(276): warning:  #1293-D: assignment in condition
+      if (!(sys=ubx_sys(
+ublox.c(280): warning:  #1293-D: assignment in condition
+      if (!(sat=satno(sys,prn))) {
+ublox.c(362): warning:  #1-D: last line of file ends without a newline
+  }
+ublox.c(38): warning:  #177-D: function "R4" was declared but never referenced
+  static float          R4(unsigned char *p) {float          r; memcpy(&r,p,4); return r;}
+ublox.c(39): warning:  #177-D: function "R8" was declared but never referenced
+  static double         R8(unsigned char *p) {double         r; memcpy(&r,p,8); return r;}
+ublox.c(44): warning:  #177-D: function "setU1" was declared but never referenced
+  static void setU1(unsigned char *p, unsigned char  u) {*p=u;}
+ublox.c(45): warning:  #177-D: function "setU2" was declared but never referenced
+  static void setU2(unsigned char *p, unsigned short u) {memcpy(p,&u,2);}
+ublox.c(46): warning:  #177-D: function "setU4" was declared but never referenced
+  static void setU4(unsigned char *p, unsigned int   u) {memcpy(p,&u,4);}
+ublox.c(47): warning:  #177-D: function "setI1" was declared but never referenced
+  static void setI1(unsigned char *p, char           i) {*p=(unsigned char)i;}
+ublox.c(48): warning:  #177-D: function "setI2" was declared but never referenced
+  static void setI2(unsigned char *p, short          i) {memcpy(p,&i,2);}
+ublox.c(49): warning:  #177-D: function "setI4" was declared but never referenced
+  static void setI4(unsigned char *p, int            i) {memcpy(p,&i,4);}
+ublox.c(50): warning:  #177-D: function "setR4" was declared but never referenced
+  static void setR4(unsigned char *p, float          r) {memcpy(p,&r,4);}
+ublox.c(51): warning:  #177-D: function "setR8" was declared but never referenced
+  static void setR8(unsigned char *p, double         r) {memcpy(p,&r,8);}
+ublox.c(223): warning:  #177-D: function "decode_alm1" was declared but never referenced
+  static int decode_alm1(int sat, raw_t *raw)
+ublox.c(229): warning:  #177-D: function "decode_alm2" was declared but never referenced
+  static Error decode_alm2(int sat, raw_t *raw)
+ublox.c: 17 warnings, 0 errors
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma2d.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_rtc.c...
+compiling stm32f4xx_hal_rtc_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_usart.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=56140 RO-data=4140 RW-data=56508 ZI-data=134868  
+FromELF: creating hex file...
+"..\OBJ\RtkLib.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\Share-Board-RTK-Sinian-Period-V2.0-master\USER\RTE
+  D:\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:02:36
+</pre>
+</body>
+</html>

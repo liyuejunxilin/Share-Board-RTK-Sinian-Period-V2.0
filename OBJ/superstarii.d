@@ -1,0 +1,11 @@
+..\obj\superstarii.o: SuperStarII.c
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\superstarii.o: rtk.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstring
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\cstdlib
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\superstarii.o: D:\Keil\ARM\ARMCC\Bin\..\include\time.h
